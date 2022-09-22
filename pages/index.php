@@ -24,14 +24,20 @@
         В пятницу 14 октября с 23:00 и до раннего утра легендарный Бункер Грибоедова наполнится 
         звуками брейк бита, дарк диско, электро, нью бита, панк транса, техно и гипнотик минимала.
         Dj XNX из Москвы и поддержка от локальной и глобальной сцены Петербурга, не пропустите!
+
         <br><br> 
+
         Электронный билет по кнопке ниже - 
         <span style="text-decoration: underline;">
           <?php echo $_ENV['PRICE'] ?>₽
         </span> 
+
+        <br><br>
+        От 3-х билетов в один чек действует скидка 20%.
+        Привелегии электронных билетов: отдельная очередь; вэлком дринки.
       </p>
 
-      <button class="content__btn btn" onclick="showEventsNhForm('https://events.nethouse.ru/buy_tickets/58040/79232/')">
+      <button class="content__btn btn" onclick="showEventsNhForm('https://events.nethouse.ru/buy_tickets/58040/')">
         купить билет
       </button>
 
