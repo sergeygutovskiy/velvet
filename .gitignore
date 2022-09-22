@@ -1,6 +1,8 @@
 vendor
 
 .env
+.ssh
+.composer
 
 *.log
 *.log.*
