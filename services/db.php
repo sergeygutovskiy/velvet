@@ -7,10 +7,10 @@ use PDOException;
 class DB {
     public static function get_connection()
     {
-        $host = '127.0.0.1';
-        $db   = 'velvet';
-        $user = 'root';
-        $password = 'root';
+        $host = $_ENV['DB_HOST'];
+        $db   = $_ENV['DB_DATABASE'];
+        $user = $_ENV['DB_USER'];
+        $password = $_ENV['DB_PASSWORD'];
         $charset = 'utf8';
     
         $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
