@@ -4,6 +4,8 @@
   <?php require '_header.php'; ?>
 
   <title> Velvet </title>
+
+  <script src="https://events.nethouse.ru/assets/js/popup-form.js"></script>
 </head>
 <body>
   <div class="page-container">
@@ -29,7 +31,7 @@
         </span> 
       </p>
 
-      <button class="content__btn btn" id="modal-open-btn">
+      <button class="content__btn btn" onclick="showEventsNhForm('https://events.nethouse.ru/buy_tickets/58040/79232/')">
         купить билет
       </button>
 
