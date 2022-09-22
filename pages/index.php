@@ -14,27 +14,24 @@
 
     <div class="content" id="content">
       <span class="content__date">14 октября</span>
-      
+
       <span class="content__age">18+</span>
       <span class="content__mobile-place">GRIBOEDOV BASEMENT</span>
 
       <h1 class="content__title">VELVET</h1>
 
       <p class="content__paragraph">
-        В пятницу 14 октября с 23:00 и до раннего утра легендарный Бункер Грибоедова наполнится 
-        звуками брейк бита, дарк диско, электро, нью бита, панк транса, техно и гипнотик минимала.
-        Dj XNX из Москвы и поддержка от локальной и глобальной сцены Петербурга, не пропустите!
-
+        В ПЯТНИЦУ 14 ОКТЯБРЯ С 23:00 И ДО РАННЕГО УТРА ЛЕГЕНДАРНЫЙ БУНКЕР ГРИБОЕДОВА НАПОЛНИТСЯ ЗВУКАМИ БРЕЙК БИТА, 
+        ДАРК ДИСКО, ЭЛЕКТРО, НЬЮ БИТА, ПАНК ТРАНСА, ТЕХНО И ГИПНОТИК МИНИМАЛА. 
+        DJ XNX ИЗ МОСКВЫ И ПОДДЕРЖКА ОТ ЛОКАЛЬНОЙ И ГЛОБАЛЬНОЙ СЦЕНЫ ПЕТЕРБУРГА, НЕ ПРОПУСТИТЕ!
         <br><br> 
-
-        Электронный билет по кнопке ниже - 
-        <span style="text-decoration: underline;">
-          <?php echo $_ENV['PRICE'] ?>₽
-        </span> 
-
+        ЭЛЕКТРОННЫЙ БИЛЕТ ПО КНОПКЕ НИЖЕ:
+        <br>
+        ОДИНОЧНЫЙ - <span style="text-decoration: underline;">500₽</span>.
+        <br>
+        НА ТРОИХ - <span style="text-decoration: underline;">1200₽</span>.
         <br><br>
-        От 3-х билетов в один чек действует скидка 20%.
-        Привелегии электронных билетов: отдельная очередь; вэлком дринки.
+        ПРИВЕЛЕГИИ ЭЛЕКТРОННЫХ БИЛЕТОВ: ОТДЕЛЬНАЯ ОЧЕРЕДЬ; ВЭЛКОМ ДРИНКИ.
       </p>
 
       <button class="content__btn btn" onclick="showEventsNhForm('https://events.nethouse.ru/buy_tickets/58040/')">
